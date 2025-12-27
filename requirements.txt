@@ -1,0 +1,9 @@
+rich
+requests
+google-generativeai
+openai
+anthropic
+mistralai
+pyyaml
+fake-useragent
+beautifulsoup4

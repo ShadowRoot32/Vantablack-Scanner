@@ -1,0 +1,16 @@
+# VANTABLACK CONFIGURATION
+# Rename this file to config.yaml and fill in your keys
+
+api_keys:
+  gemini: ""      # Google Gemini API Key
+  openai: ""      # OpenAI API Key (Optional)
+  anthropic: ""   # Claude API Key (Optional)
+  mistral: ""     # Mistral API Key (Optional)
+  grok: ""        # X.AI API Key (Optional)
+  ollama_url: "http://localhost:11434" # Local AI
+
+settings:
+  threads: 5
+  timeout: 30
+  user_agent_rotation: true
+  reports_dir: "reports"

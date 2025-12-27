@@ -1,0 +1,20 @@
+# --- RAHASIA (JANGAN UPLOAD) ---
+config.yaml
+.env
+.DS_Store
+
+# --- PYTHON SAMPAH ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# --- LAPORAN HASIL SCAN ---
+reports/
+logs/
+*.log
+*.tmp
