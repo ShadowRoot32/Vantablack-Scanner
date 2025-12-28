@@ -58,7 +58,7 @@ api_keys:
      -ollama_url: "http://localhost:11434"
      Catatan: File config.yaml tidak akan ikut ter-upload ke GitHub (karena .gitignore), jadi kunci rahasia Anda aman.
 
-##🎮 Cara Pemakaian
+## 🎮 Cara Pemakaian
 Jalankan script utama menggunakan Python:
 python main.py
 
@@ -72,7 +72,7 @@ Aksi: Spidering, Nmap, Nuclei, SQLMap, CSRF/SSRF Check.
 >> /home/user/downloads/target_aplikasi.apk
 Aksi: Static Analysis, Pencarian Hardcoded Secrets.
 
-📂 Output & Laporan
+## 📂 Output & Laporan
 Setelah scan selesai, laporan akan dibuat otomatis oleh AI.
 
 Lokasi: Folder ./reports/
