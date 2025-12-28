@@ -48,15 +48,15 @@ copy config.example.yaml config.yaml
 2. Edit Config & Masukkan Key
 Buka file config.yaml dengan text editor (Notepad/Nano/VSCode). Isi API Key di dalam tanda kutip "".
 api_keys:
-  # UTAMA (Wajib isi minimal satu)
-  gemini: "AIzaSy..."      # Dapatkan Gratis di Google AI Studio
-  # CADANGAN (Opsional - Jika Gemini error, otomatis pakai ini)
-  openai: "sk-proj-..."    # OpenAI GPT-4 Key
-  anthropic: ""            # Claude Key
-  mistral: ""              # Mistral AI Key
-  # LOKAL (Opsional - Jika tidak ada internet)
-  ollama_url: "http://localhost:11434"
-  Catatan: File config.yaml tidak akan ikut ter-upload ke GitHub (karena .gitignore), jadi kunci rahasia Anda aman.
+  - **UTAMA (Wajib isi minimal satu)
+     -gemini: "AIzaSy..."      # Dapatkan Gratis di Google AI Studio
+  - **CADANGAN (Opsional - Jika Gemini error, otomatis pakai ini)
+     -openai: "sk-proj-..."    # OpenAI GPT-4 Key
+     -anthropic: ""            # Claude Key
+     -mistral: ""              # Mistral AI Key
+  - **LOKAL (Opsional - Jika tidak ada internet)
+     -ollama_url: "http://localhost:11434"
+     Catatan: File config.yaml tidak akan ikut ter-upload ke GitHub (karena .gitignore), jadi kunci rahasia Anda aman.
 
 ##🎮 Cara Pemakaian
 Jalankan script utama menggunakan Python:
