@@ -40,9 +40,9 @@ Agar fitur AI berjalan, Anda harus memasukkan API Key. Vantablack menggunakan si
 
 1. Buat File Config
 Duplikasi file contoh config:
-# Linux/Mac
+## Linux/Mac
 cp config.example.yaml config.yaml
-# Windows (CMD)
+## Windows (CMD)
 copy config.example.yaml config.yaml
 
 2. Edit Config & Masukkan Key
