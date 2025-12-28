@@ -24,16 +24,22 @@
 
 ### 1. Clone Repository
 Download source code ke komputer Anda:
+```bash
 git clone [https://github.com/USERNAME_GITHUB_ANDA/Vantablack-Scanner.git](https://github.com/USERNAME_GITHUB_ANDA/Vantablack-Scanner.git)
 cd Vantablack-Scanner
+```
 
 ## 🚀 Instalasi Tools Pendukung
 Pastikan tools utama terinstall (Kali Linux / Ubuntu):
+```bash
 sudo apt update
 sudo apt install nmap sqlmap nuclei -y
+```
 
 ## 🚀 Install Library Python
+```bash
 pip install -r requirements.txt
+```
 
 ##⚙️ Konfigurasi & API Key
 Agar fitur AI berjalan, Anda harus memasukkan API Key. Vantablack menggunakan sistem "Failover", artinya Anda bisa memasukkan banyak key sekaligus sebagai cadangan.
@@ -41,9 +47,13 @@ Agar fitur AI berjalan, Anda harus memasukkan API Key. Vantablack menggunakan si
 1. Buat File Config
 Duplikasi file contoh config:
 ## Linux/Mac
+```bash
 cp config.example.yaml config.yaml
+```
 ## Windows (CMD)
+```bash
 copy config.example.yaml config.yaml
+```
 
 2. Edit Config & Masukkan Key
 Buka file config.yaml dengan text editor (Notepad/Nano/VSCode). Isi API Key di dalam tanda kutip "".
@@ -60,7 +70,9 @@ api_keys:
 
 ## 🎮 Cara Pemakaian
 Jalankan script utama menggunakan Python:
+```bash
 python main.py
+```
 
 1. Input Target
 Vantablack menerima dua jenis target:
